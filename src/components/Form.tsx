@@ -1,6 +1,7 @@
 import React from 'react';
 import useRenderNotifyAnchor from '../hooks/useRenderNotifyAnchor';
 
+// https://www.pumpkiinbell.com/blog/react/reusable-components
 type Props = Omit<React.HTMLAttributes<HTMLFormElement>, keyof OwnProps> & OwnProps;
 
 type OwnProps = { useRenderNotify?: boolean };
