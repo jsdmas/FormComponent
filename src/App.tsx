@@ -7,7 +7,7 @@ function App() {
   return (
     <section style={{ display: 'flex', height: '100vh', width: '100%', padding: '0 40px' }} className={formstyle.form}>
       <BrowserRouter>
-        <header style={{ display: 'flex', width: '100%' }}>
+        <header style={{ display: 'flex', width: '100%', position: 'fixed' }}>
           <Link to='/basicform'>basicform</Link>
         </header>
         <Routes>
